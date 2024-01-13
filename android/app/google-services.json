@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "164656934685",
+    "firebase_url": "https://parkisense-default-rtdb.firebaseio.com",
+    "project_id": "parkisense",
+    "storage_bucket": "parkisense.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164656934685:android:8d6e30a50b79240221fbf4",
+        "android_client_info": {
+          "package_name": "com.aries.parkisense"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzT7-yBbjnNELnTBAPNeutHsevG6TwH24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

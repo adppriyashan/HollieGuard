@@ -1,0 +1,87 @@
+name: parkisense
+description: "Parkisense is for disabled people."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.2.4
+  email_validator: ^2.1.17
+  cached_network_image: ^3.3.1
+  permission_handler: ^11.1.0
+  google_sign_in: ^6.2.1
+  percent_indicator: ^4.2.3
+  flutter_slidable: ^3.0.1
+  toggle_switch: ^2.1.0
+  phone_number: ^2.0.1
+  intl: ^0.19.0
+  syncfusion_flutter_gauges: ^21.2.4
+  syncfusion_flutter_charts: ^21.2.4
+  flutter_datetime_picker_plus: ^2.1.0
+  flutter_switch: ^0.3.2
+  flutter_radar_chart: ^0.2.1
+  google_fonts: ^6.1.0
+  firebase_database: ^10.3.8
+  firebase_auth: ^4.15.3
+  firebase_storage: ^11.5.6
+  uuid: ^4.2.2
+  flutter_launcher_icons: ^0.13.1
+  html_editor_enhanced: ^2.5.1
+  shared_preferences: ^2.2.2
+  url_launcher: ^6.2.2
+  form_validation: ^3.1.1+2
+  firebase_core: ^2.24.2
+  badges: ^3.1.2
+  simple_circular_progress_bar: ^1.0.2
+  file_picker: ^5.5.0
+  custom_radio_group_list: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/inform.png
+    - assets/images/user.png
+    - assets/images/logo.png
+    - assets/images/pw.png
+    - assets/images/empty.png
+    - assets/images/default.png
+    - assets/images/home_bg.png
+    - assets/images/default_json.png
+
+  fonts:
+    - family: Raleway
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Regular.ttf
+          weight: 400
+    - family: Raleway-Medium
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Medium.ttf
+          weight: 500
+    - family: Raleway-SemiBold
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-SemiBold.ttf
+          weight: 600
+    - family: Raleway-Bold
+      fonts:
+        - asset: assets/fonts/Raleway/static/Raleway-Bold.ttf
+          weight: 700
