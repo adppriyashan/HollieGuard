@@ -1,17 +1,12 @@
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
-import 'package:parkisense/Models/Strings/app.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Models/Utils/FirebaseStructure.dart';
-import 'package:parkisense/Models/Utils/Images.dart';
-import 'package:badges/badges.dart' as badges;
-import 'package:parkisense/Models/Utils/Routes.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
-import 'package:parkisense/Views/Contetns/Home/drawer.dart';
-import 'package:parkisense/Views/Contetns/Request/RequestList.dart';
-import 'package:parkisense/Views/Doctors/doctor.dart';
-import 'package:parkisense/Views/Widgets/graph_view.dart';
+import 'package:hollieguard/Models/Strings/app.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/FirebaseStructure.dart';
+import 'package:hollieguard/Models/Utils/Images.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
+import 'package:hollieguard/Views/Widgets/graph_view.dart';
 import 'package:simple_circular_progress_bar/simple_circular_progress_bar.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
@@ -68,7 +63,6 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
         key: _scaffoldKey,
-        drawer: HomeDrawer(),
         resizeToAvoidBottomInset: false,
         backgroundColor: colorSecondary,
         body: SafeArea(
@@ -92,16 +86,6 @@ class _HomeState extends State<Home> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
-                              GestureDetector(
-                                onTap: () => (_scaffoldKey
-                                        .currentState!.isDrawerOpen)
-                                    ? _scaffoldKey.currentState!.openEndDrawer()
-                                    : _scaffoldKey.currentState!.openDrawer(),
-                                child: Icon(
-                                  Icons.menu_rounded,
-                                  color: colorWhite,
-                                ),
-                              ),
                               Row(
                                 children: [
                                   SizedBox(
@@ -117,19 +101,7 @@ class _HomeState extends State<Home> {
                                     ),
                                   )
                                 ],
-                              ),
-                              GestureDetector(
-                                onTap: () => Routes(context: context).navigate(
-                                    (CustomUtils.loggedInUser!.type == 2)
-                                        ? const Doctor()
-                                        : RequestList()),
-                                child: Icon(
-                                  (CustomUtils.loggedInUser!.type == 2)
-                                      ? Icons.medical_services_outlined
-                                      : Icons.message_outlined,
-                                  color: colorWhite,
-                                ),
-                              ),
+                              )
                             ],
                           ),
                         ),

@@ -1,16 +1,16 @@
 {
   "project_info": {
     "project_number": "164656934685",
-    "firebase_url": "https://parkisense-default-rtdb.firebaseio.com",
-    "project_id": "parkisense",
-    "storage_bucket": "parkisense.appspot.com"
+    "firebase_url": "https://hollieguard-default-rtdb.firebaseio.com",
+    "project_id": "hollieguard",
+    "storage_bucket": "hollieguard.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:164656934685:android:8d6e30a50b79240221fbf4",
         "android_client_info": {
-          "package_name": "com.aries.parkisense"
+          "package_name": "com.aries.hollieguard"
         }
       },
       "oauth_client": [],

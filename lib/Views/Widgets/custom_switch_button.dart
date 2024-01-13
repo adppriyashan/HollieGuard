@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
 
 class CustomSwitchButton extends StatefulWidget {
   CustomSwitchButton({Key? key}) : super(key: key);

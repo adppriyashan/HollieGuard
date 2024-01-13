@@ -5,18 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "parkisense_mobile",
+            "name": "hollieguard_mobile",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "parkisense_mobile (profile mode)",
+            "name": "hollieguard_mobile (profile mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "parkisense_mobile (release mode)",
+            "name": "hollieguard_mobile (release mode)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release"

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class GraphView extends StatefulWidget {

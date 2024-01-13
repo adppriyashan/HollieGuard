@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_datetime_picker_plus/flutter_datetime_picker_plus.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
 
 class CustomTextDateTimeChooser extends StatelessWidget {
   double height = 5.0;

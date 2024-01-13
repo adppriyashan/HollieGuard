@@ -4,10 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:intl/intl.dart';
-import 'package:parkisense/Models/DB/User.dart';
-import 'package:parkisense/Models/Strings/app.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Views/PopUps/Loading.dart';
+import 'package:hollieguard/Models/DB/User.dart';
+import 'package:hollieguard/Models/Strings/app.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Views/PopUps/Loading.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:url_launcher/url_launcher_string.dart';
 

@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Views/Widgets/custom_button.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Views/Widgets/custom_button.dart';
 
 // ignore: must_be_immutable
 class CustomImageChooser extends StatelessWidget {

@@ -1,4 +1,4 @@
-package com.aries.parkisense
+package com.aries.hollieguard
 
 import io.flutter.embedding.android.FlutterActivity
 

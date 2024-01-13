@@ -1,9 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
-import 'package:parkisense/Models/DB/User.dart';
-import 'package:parkisense/Models/Utils/FirebaseStructure.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
-import 'package:parkisense/Views/Auth/Login.dart';
+import 'package:hollieguard/Models/DB/User.dart';
+import 'package:hollieguard/Models/Utils/FirebaseStructure.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
+import 'package:hollieguard/Views/Auth/Login.dart';
 import 'package:flutter/material.dart';
 
 class AuthController {

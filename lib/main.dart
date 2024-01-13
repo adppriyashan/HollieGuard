@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:parkisense/Models/Strings/app.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Views/Init/splash_screen.dart';
+import 'package:hollieguard/Models/Strings/app.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Views/Init/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 

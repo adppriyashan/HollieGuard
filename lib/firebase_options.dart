@@ -47,10 +47,10 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyDr7q2CY9L86TK8iAedxj92fsmRrYfV4vc',
     appId: '1:164656934685:web:f295fac77fa5e31821fbf4',
     messagingSenderId: '164656934685',
-    projectId: 'parkisense',
-    authDomain: 'parkisense.firebaseapp.com',
-    databaseURL: 'https://parkisense-default-rtdb.firebaseio.com',
-    storageBucket: 'parkisense.appspot.com',
+    projectId: 'hollieguard',
+    authDomain: 'hollieguard.firebaseapp.com',
+    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard.appspot.com',
     measurementId: 'G-XTN14HMX5C',
   );
 
@@ -58,28 +58,28 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyCzT7-yBbjnNELnTBAPNeutHsevG6TwH24',
     appId: '1:164656934685:android:8d6e30a50b79240221fbf4',
     messagingSenderId: '164656934685',
-    projectId: 'parkisense',
-    databaseURL: 'https://parkisense-default-rtdb.firebaseio.com',
-    storageBucket: 'parkisense.appspot.com',
+    projectId: 'hollieguard',
+    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDz9Zsco8xwLWYCluS2WNMmZlmE_cXRMbE',
     appId: '1:164656934685:ios:d13fb29826fe78b621fbf4',
     messagingSenderId: '164656934685',
-    projectId: 'parkisense',
-    databaseURL: 'https://parkisense-default-rtdb.firebaseio.com',
-    storageBucket: 'parkisense.appspot.com',
-    iosBundleId: 'com.aries.parkisenseMobile',
+    projectId: 'hollieguard',
+    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard.appspot.com',
+    iosBundleId: 'com.aries.hollieguardMobile',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyDz9Zsco8xwLWYCluS2WNMmZlmE_cXRMbE',
     appId: '1:164656934685:ios:d54a9ace52367d2021fbf4',
     messagingSenderId: '164656934685',
-    projectId: 'parkisense',
-    databaseURL: 'https://parkisense-default-rtdb.firebaseio.com',
-    storageBucket: 'parkisense.appspot.com',
-    iosBundleId: 'com.aries.parkisenseMobile.RunnerTests',
+    projectId: 'hollieguard',
+    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard.appspot.com',
+    iosBundleId: 'com.aries.hollieguardMobile.RunnerTests',
   );
 }

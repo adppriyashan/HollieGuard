@@ -1,16 +1,16 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:parkisense/Controllers/AuthController.dart';
-import 'package:parkisense/Models/Strings/app.dart';
-import 'package:parkisense/Models/Strings/splash_screen.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Models/Utils/Images.dart';
-import 'package:parkisense/Models/Utils/Routes.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
-import 'package:parkisense/Views/Auth/Login.dart';
-import 'package:parkisense/Views/Contetns/Home/home.dart';
+import 'package:hollieguard/Controllers/AuthController.dart';
+import 'package:hollieguard/Models/Strings/app.dart';
+import 'package:hollieguard/Models/Strings/splash_screen.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/Images.dart';
+import 'package:hollieguard/Models/Utils/Routes.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
+import 'package:hollieguard/Views/Auth/Login.dart';
+import 'package:hollieguard/Views/Contetns/Home/home.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

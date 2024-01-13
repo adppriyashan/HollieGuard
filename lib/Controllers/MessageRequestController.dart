@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
-import 'package:parkisense/Models/DB/MessageRequest.dart';
-import 'package:parkisense/Models/DB/User.dart';
-import 'package:parkisense/Models/Utils/FirebaseStructure.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
+import 'package:hollieguard/Models/DB/MessageRequest.dart';
+import 'package:hollieguard/Models/DB/User.dart';
+import 'package:hollieguard/Models/Utils/FirebaseStructure.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
 
 class MessageRequestController {
   late DatabaseReference _databaseReference;

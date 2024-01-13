@@ -2,17 +2,17 @@
 
 import 'package:flutter/material.dart';
 import 'package:form_validation/form_validation.dart';
-import 'package:parkisense/Controllers/AuthController.dart';
-import 'package:parkisense/Models/Strings/forget_password.dart';
-import 'package:parkisense/Models/Strings/register_screen.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Models/Utils/Images.dart';
-import 'package:parkisense/Models/Utils/Routes.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
-import 'package:parkisense/Views/Widgets/custom_button.dart';
-import 'package:parkisense/Views/Widgets/custom_back_button.dart';
-import 'package:parkisense/Views/Widgets/custom_text_form_field.dart';
+import 'package:hollieguard/Controllers/AuthController.dart';
+import 'package:hollieguard/Models/Strings/forget_password.dart';
+import 'package:hollieguard/Models/Strings/register_screen.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/Images.dart';
+import 'package:hollieguard/Models/Utils/Routes.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
+import 'package:hollieguard/Views/Widgets/custom_button.dart';
+import 'package:hollieguard/Views/Widgets/custom_back_button.dart';
+import 'package:hollieguard/Views/Widgets/custom_text_form_field.dart';
 
 class ForgetPassword extends StatefulWidget {
   const ForgetPassword({Key? key}) : super(key: key);

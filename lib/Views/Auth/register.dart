@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:form_validation/form_validation.dart';
-import 'package:parkisense/Controllers/AuthController.dart';
-import 'package:parkisense/Models/Strings/main_screen.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
-import 'package:parkisense/Views/Widgets/custom_button.dart';
-import 'package:parkisense/Views/Widgets/custom_dropdown.dart';
-import 'package:parkisense/Views/Widgets/custom_text_area.dart';
-import 'package:parkisense/Views/Widgets/custom_text_date_chooser.dart';
-import 'package:parkisense/Views/Widgets/custom_text_form_field.dart';
+import 'package:hollieguard/Controllers/AuthController.dart';
+import 'package:hollieguard/Models/Strings/main_screen.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
+import 'package:hollieguard/Views/Widgets/custom_button.dart';
+import 'package:hollieguard/Views/Widgets/custom_dropdown.dart';
+import 'package:hollieguard/Views/Widgets/custom_text_area.dart';
+import 'package:hollieguard/Views/Widgets/custom_text_date_chooser.dart';
+import 'package:hollieguard/Views/Widgets/custom_text_form_field.dart';
 
 import '../../Models/Strings/register_screen.dart';
 import '../../Models/Utils/Colors.dart';

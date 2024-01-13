@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:parkisense/Models/DB/User.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
-import 'package:parkisense/Models/Utils/Common.dart';
-import 'package:parkisense/Models/Utils/Images.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
+import 'package:hollieguard/Models/DB/User.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Common.dart';
+import 'package:hollieguard/Models/Utils/Images.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
 
 class Profile extends StatefulWidget {
   LoggedUser? loggedUser;

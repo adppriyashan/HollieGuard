@@ -1,8 +1,8 @@
 import 'package:firebase_database/firebase_database.dart';
-import 'package:parkisense/Models/DB/Chat.dart';
-import 'package:parkisense/Models/DB/MessageRequest.dart';
-import 'package:parkisense/Models/Utils/FirebaseStructure.dart';
-import 'package:parkisense/Models/Utils/Utils.dart';
+import 'package:hollieguard/Models/DB/Chat.dart';
+import 'package:hollieguard/Models/DB/MessageRequest.dart';
+import 'package:hollieguard/Models/Utils/FirebaseStructure.dart';
+import 'package:hollieguard/Models/Utils/Utils.dart';
 
 class ChatController {
   late DatabaseReference _databaseReference;

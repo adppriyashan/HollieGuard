@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:html_editor_enhanced/html_editor.dart';
-import 'package:parkisense/Models/Utils/Colors.dart';
+import 'package:hollieguard/Models/Utils/Colors.dart';
 
 // ignore: must_be_immutable
 class CustomRichText extends StatelessWidget {
