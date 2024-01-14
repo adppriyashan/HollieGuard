@@ -96,7 +96,6 @@ class AuthController {
             email: _auth.currentUser!.email,
             mobile: profileUserData['mobile'],
             type: profileUserData['type'],
-            province: profileUserData['province'],
             uid: _auth.currentUser!.uid);
       }
     });

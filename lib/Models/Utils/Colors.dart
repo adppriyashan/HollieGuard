@@ -17,8 +17,8 @@ Color color13 = const Color(0xFFC62828);
 Color color14 = const Color(0xFF388E3C);
 Color color15 = const Color(0xFF424242);
 
-Color colorPrimary = const Color(0xFF000457);
-Color colorSecondary = const Color(0xFF000025);
+Color colorPrimary = const Color(0xFFce4122);
+Color colorSecondary = const Color(0xFFe17832);
 Color colorWhite = color6;
 Color colorBlack = colorDarkBg;
 Color colorGrey = color8;

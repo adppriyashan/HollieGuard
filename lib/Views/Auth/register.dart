@@ -33,22 +33,6 @@ class _BusinessRegisterState extends State<BusinessRegister> {
   final TextEditingController _password = TextEditingController();
   final TextEditingController _confirm_password = TextEditingController();
 
-  List<String> provinceList=[
-      'Western',
-      'Uva',
-      'Southern',
-      'Sabaragamuwa',
-      'North Western',
-      'Northern',
-      'North Central',
-      'Eastern',
-      'Central'
-    ];
-
-  String? province;
-
-  List<DropdownMenuItem<String>> _provinceList = [];
-
   final _formKey = GlobalKey<FormState>();
 
   final AuthController _authController = AuthController();
@@ -62,8 +46,6 @@ class _BusinessRegisterState extends State<BusinessRegister> {
     _birthday.text = CustomUtils.formatDate(DateTime.now());
     _password.text = "User@123";
     _confirm_password.text = "User@123";
-
-    enrollPrivinceData();
 
     super.initState();
   }
@@ -206,28 +188,6 @@ class _BusinessRegisterState extends State<BusinessRegister> {
                                       },
                                       obscureText: false),
                                 ),
-                                (_provinceList.isNotEmpty)
-                                    ? Padding(
-                                        padding: const EdgeInsets.symmetric(
-                                            horizontal: 20.0, vertical: 5.0),
-                                        child: CustomDropDown(
-                                            dropdown_value: province ??
-                                                (_provinceList.first.value ??
-                                                    'Western'),
-                                            action_icon_color: colorPrimary,
-                                            text_color: colorPrimary,
-                                            background_color: color7,
-                                            underline_color: color6,
-                                            leading_icon: Icons.maps_home_work_outlined ,
-                                            leading_icon_color: colorPrimary,
-                                            function: (value) {
-                                              setState(() {
-                                                province = value;
-                                              });
-                                            },
-                                            items: _provinceList),
-                                      )
-                                    : const SizedBox.shrink(),
                                 Padding(
                                   padding: const EdgeInsets.symmetric(
                                       horizontal: 20.0, vertical: 5.0),
@@ -387,9 +347,7 @@ class _BusinessRegisterState extends State<BusinessRegister> {
                                               'email': _email.text.toString(),
                                               'type': 2,
                                               'password':
-                                                  _password.text.toString(),
-                                              'province':
-                                                  province ?? 'Western',
+                                                  _password.text.toString()
                                             }).then((value) =>
                                                     CustomUtils.hideLoader(
                                                         context));
@@ -420,15 +378,5 @@ class _BusinessRegisterState extends State<BusinessRegister> {
                 ),
               ))),
     );
-  }
-
-  void enrollPrivinceData() {
-    for (var element in provinceList) {
-      _provinceList.add(DropdownMenuItem(
-          value: element,
-          alignment: Alignment.centerLeft,
-          enabled: true,
-          child: Text("$element Province", style: TextStyle(color: colorPrimary, fontSize: 15.0) )));
-    }
   }
 }

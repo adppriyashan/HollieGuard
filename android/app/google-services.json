@@ -1,14 +1,14 @@
 {
   "project_info": {
-    "project_number": "164656934685",
-    "firebase_url": "https://hollieguard-default-rtdb.firebaseio.com",
-    "project_id": "hollieguard",
-    "storage_bucket": "hollieguard.appspot.com"
+    "project_number": "159012567235",
+    "firebase_url": "https://hollieguard-8659f-default-rtdb.firebaseio.com",
+    "project_id": "hollieguard-8659f",
+    "storage_bucket": "hollieguard-8659f.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:164656934685:android:8d6e30a50b79240221fbf4",
+        "mobilesdk_app_id": "1:159012567235:android:c4d99a05e8db440c358a76",
         "android_client_info": {
           "package_name": "com.aries.hollieguard"
         }
@@ -16,7 +16,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCzT7-yBbjnNELnTBAPNeutHsevG6TwH24"
+          "current_key": "AIzaSyAZLkKMReeRgMKiNf0ECioAaAGVmcO6xQA"
         }
       ],
       "services": {

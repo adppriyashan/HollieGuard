@@ -44,42 +44,42 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDr7q2CY9L86TK8iAedxj92fsmRrYfV4vc',
-    appId: '1:164656934685:web:f295fac77fa5e31821fbf4',
-    messagingSenderId: '164656934685',
-    projectId: 'hollieguard',
-    authDomain: 'hollieguard.firebaseapp.com',
-    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
-    storageBucket: 'hollieguard.appspot.com',
-    measurementId: 'G-XTN14HMX5C',
+    apiKey: 'AIzaSyAPpxdv-zYbIDTy3A-jaaH5CZ4gMnSF5KI',
+    appId: '1:159012567235:web:85c1e1bd4cd29598358a76',
+    messagingSenderId: '159012567235',
+    projectId: 'hollieguard-8659f',
+    authDomain: 'hollieguard-8659f.firebaseapp.com',
+    databaseURL: 'https://hollieguard-8659f-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard-8659f.appspot.com',
+    measurementId: 'G-W1LL6H5MSN',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCzT7-yBbjnNELnTBAPNeutHsevG6TwH24',
-    appId: '1:164656934685:android:8d6e30a50b79240221fbf4',
-    messagingSenderId: '164656934685',
-    projectId: 'hollieguard',
-    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
-    storageBucket: 'hollieguard.appspot.com',
+    apiKey: 'AIzaSyAZLkKMReeRgMKiNf0ECioAaAGVmcO6xQA',
+    appId: '1:159012567235:android:c4d99a05e8db440c358a76',
+    messagingSenderId: '159012567235',
+    projectId: 'hollieguard-8659f',
+    databaseURL: 'https://hollieguard-8659f-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard-8659f.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDz9Zsco8xwLWYCluS2WNMmZlmE_cXRMbE',
-    appId: '1:164656934685:ios:d13fb29826fe78b621fbf4',
-    messagingSenderId: '164656934685',
-    projectId: 'hollieguard',
-    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
-    storageBucket: 'hollieguard.appspot.com',
+    apiKey: 'AIzaSyDojOrTWQFb6Ur8nSSJqwEiKU5uPL1E5aQ',
+    appId: '1:159012567235:ios:be6b25803e950d6c358a76',
+    messagingSenderId: '159012567235',
+    projectId: 'hollieguard-8659f',
+    databaseURL: 'https://hollieguard-8659f-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard-8659f.appspot.com',
     iosBundleId: 'com.aries.hollieguardMobile',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDz9Zsco8xwLWYCluS2WNMmZlmE_cXRMbE',
-    appId: '1:164656934685:ios:d54a9ace52367d2021fbf4',
-    messagingSenderId: '164656934685',
-    projectId: 'hollieguard',
-    databaseURL: 'https://hollieguard-default-rtdb.firebaseio.com',
-    storageBucket: 'hollieguard.appspot.com',
+    apiKey: 'AIzaSyDojOrTWQFb6Ur8nSSJqwEiKU5uPL1E5aQ',
+    appId: '1:159012567235:ios:f1368b4dc77841db358a76',
+    messagingSenderId: '159012567235',
+    projectId: 'hollieguard-8659f',
+    databaseURL: 'https://hollieguard-8659f-default-rtdb.firebaseio.com',
+    storageBucket: 'hollieguard-8659f.appspot.com',
     iosBundleId: 'com.aries.hollieguardMobile.RunnerTests',
   );
 }

@@ -43,7 +43,7 @@ class _SplashScreenState extends State<SplashScreen> {
     displaySize = MediaQuery.of(context).size;
     return Scaffold(
       resizeToAvoidBottomInset: false,
-      backgroundColor: colorPrimary,
+      backgroundColor: colorWhite,
       body: SafeArea(
           child: Stack(
         alignment: Alignment.center,
@@ -61,14 +61,14 @@ class _SplashScreenState extends State<SplashScreen> {
                     padding: const EdgeInsets.only(top: 20.0),
                     child: Text(
                       app_name,
-                      style: TextStyle(fontSize: 23.0, color: color7),
+                      style: TextStyle(fontSize: 23.0, color: colorBlack),
                     ),
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 5.0),
                     child: Text(
                       app_quote.toUpperCase(),
-                      style: TextStyle(fontSize: 12.0, color: color7),
+                      style: TextStyle(fontSize: 12.0, color: colorBlack),
                     ),
                   ),
                 ],
@@ -79,7 +79,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 padding: const EdgeInsets.only(bottom: 30.0),
                 child: Text(
                   SplashScreen_version.toUpperCase(),
-                  style: TextStyle(fontSize: 10.0, color: color7),
+                  style: TextStyle(fontSize: 10.0, color: colorBlack),
                 ),
               ))
         ],
